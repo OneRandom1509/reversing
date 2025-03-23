@@ -1,12 +1,11 @@
 ## How to Run the game
+1. Install the dependencies `sdl2` and `sdl2_ttf` (search up on how to do this)
+2. Run the command:
+   ```
+   g++ main.cpp -lSDL2 -lSDL2_ttf -o game
+   ```
 
-1. Run the command:
-   `g++ main.cpp -lSDL2 -lSDL2_ttf -o game`
-
-2. Give execute permission to the binary
-   `chmod +x game`
-
-3. Execute the binary
+3. Execute the binary:
    `./game`
 
 ## How to use Ghidra for modding
